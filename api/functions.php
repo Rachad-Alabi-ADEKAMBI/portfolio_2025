@@ -99,24 +99,6 @@ function ()
     header('Content-Type: application/json');
     echo json_encode($response);
 }
-
-function getJobs()
-{
-    $pdo = getConnexion();
-    $req = $pdo->prepare("SELECT * FROM
-    jobs
-        ORDER BY id DESC");
-    $req->execute();
-    $datas = $req->fetchAll();
-    $req->closeCursor();
-    sendJSON($datas);
-    //  return $datas;
-}
-
-function updateJob($id, $status)
-{
-    $pdo = getConnexion();
-    $req = $pdo->prepare("UPDATE jobs SET status = ? WHERE id = ?");
-    $req->execute([$status, $id]); ?>
-<?php
-}
+ function login(){
+    
+ }
