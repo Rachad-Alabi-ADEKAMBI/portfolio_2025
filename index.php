@@ -24,7 +24,7 @@
                     <li><a href="#freelance" class="nav-link"><i class="fas fa-laptop-code"></i> Freelance</a></li>
                     <li><a href="#portfolio" class="nav-link"><i class="fas fa-briefcase"></i> Portfolio</a></li>
                     <li><a href="#testimony" class="nav-link"><i class="fas fa-comments"></i> Testimony</a></li>
-                    <li><a href="#appointment" class="book-appointment-btn"><i class="fas fa-calendar-alt"></i> Book an Appointment</a></li>
+                    <li><a href="#contact" class="book-appointment-btn"><i class="fas fa-calendar-alt"></i> Book an Appointment</a></li>
                 </ul>
                 <div class="language-switch">
                     <div class="language-option active" data-lang="en">EN</div>
@@ -236,6 +236,7 @@
             </div>
         </section>
 
+        <!--
         <section id="appointment">
             <div class="container">
                 <h2 class="section-title">Let's Connect</h2>
@@ -291,6 +292,34 @@
                             <textarea id="project-details" name="project-details" rows="4" placeholder="Tell me about your project or any specific requirements"></textarea>
                         </div>
                         <button type="submit" class="submit-button">Schedule Meeting</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+-->
+
+        <section id="appointment">
+            <div class="container">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="appointment-intro">Ready to bring your web project to life? Let's connect.</p>
+                <div class="appointment-form">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="project-details">Project Details</label>
+                            <textarea id="project-details" name="project-details" rows="4" placeholder="Tell me about your project or any specific requirements"></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Send message</button>
                     </form>
                 </div>
             </div>
