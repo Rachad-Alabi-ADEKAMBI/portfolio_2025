@@ -191,6 +191,10 @@ nav {
   cursor: pointer;
   color: $text-color;
 
+  i {
+    right: 10px;
+  }
+
   @media (max-width: 768px) {
     display: block;
   }
@@ -738,17 +742,3 @@ footer {
     flex: 0 0 100%;
   }
 }
-
-// Add JavaScript for mobile menu toggle
-#menu-toggle {
-  cursor: pointer;
-
-  &:hover {
-    color: $primary-color;
-  }
-}
-
-// Add this to your JavaScript
-// document.getElementById('menu-toggle').addEventListener('click', function() {
-//   document.getElementById('nav-menu').classList.toggle('active');
-// });

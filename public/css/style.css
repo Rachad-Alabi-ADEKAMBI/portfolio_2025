@@ -110,6 +110,9 @@ nav ul li a:hover, nav ul li a.active {
   cursor: pointer;
   color: #333;
 }
+.menu-toggle i {
+  right: 10px;
+}
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
@@ -647,10 +650,4 @@ footer .social-links a:hover {
   .testimony-item {
     flex: 0 0 100%;
   }
-}
-#menu-toggle {
-  cursor: pointer;
-}
-#menu-toggle:hover {
-  color: #3498db;
 }/*# sourceMappingURL=style.css.map */

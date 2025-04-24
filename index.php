@@ -19,22 +19,19 @@
     <div class="app" id="app">
         <header>
             <nav>
-                <ul>
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul id="nav-list">
                     <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a></li>
                     <li><a href="#freelance" class="nav-link"><i class="fas fa-laptop-code"></i> Freelance</a></li>
                     <li><a href="#portfolio" class="nav-link"><i class="fas fa-briefcase"></i> Portfolio</a></li>
                     <li><a href="#testimony" class="nav-link"><i class="fas fa-comments"></i> Testimony</a></li>
                     <li><a href="#contact" class="book-appointment-btn"><i class="fas fa-envelope"></i> Contact</a></li>
-
                 </ul>
-                <!--
-                <div class="language-switch">
-                    <div class="language-option active" data-lang="en">EN</div>
-                    <div class="language-option" data-lang="fr">FR</div>
-                </div>
--->
             </nav>
         </header>
+
 
         <section id="hero">
             <div class="container">
@@ -560,6 +557,16 @@
             }
         }).mount('#app');
     </script>
+
+    <script>
+        const toggle = document.getElementById('menu-toggle');
+        const navList = document.getElementById('nav-list');
+
+        toggle.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+    </script>
+
 
 </body>
 
