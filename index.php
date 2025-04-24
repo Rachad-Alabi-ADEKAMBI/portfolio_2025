@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="public/css/style.css">
     <meta name="description" content="Rachad Alabi ADEKAMBI is a freelance web developer specializing in full-stack development. With over 6 years of experience, Rachad crafts beautiful and functional digital experiences for clients worldwide.">
-    <meta name="robot" content="index. follow">
+    <meta name="robot" content="index, follow">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
@@ -24,12 +24,15 @@
                     <li><a href="#freelance" class="nav-link"><i class="fas fa-laptop-code"></i> Freelance</a></li>
                     <li><a href="#portfolio" class="nav-link"><i class="fas fa-briefcase"></i> Portfolio</a></li>
                     <li><a href="#testimony" class="nav-link"><i class="fas fa-comments"></i> Testimony</a></li>
-                    <li><a href="#contact" class="book-appointment-btn"><i class="fas fa-calendar-alt"></i> Book an Appointment</a></li>
+                    <li><a href="#contact" class="book-appointment-btn"><i class="fas fa-envelope"></i> Contact</a></li>
+
                 </ul>
+                <!--
                 <div class="language-switch">
                     <div class="language-option active" data-lang="en">EN</div>
                     <div class="language-option" data-lang="fr">FR</div>
                 </div>
+-->
             </nav>
         </header>
 
